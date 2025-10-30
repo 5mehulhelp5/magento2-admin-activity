@@ -6,22 +6,10 @@
 - Track fields that have been changed from the backend.
 - Allow administrator to revert the modification.
 
-## **Installation**
-1. Composer Installation
-      - Navigate to your Magento root folder<br />
-            `cd path_to_the_magento_root_directory`
-      - Then run the following command<br />
-          `composer require kiwicommerce/module-admin-activity`
-      - Make sure that composer finished the installation without errors.
-
-2. Command Line Installation
-      - Backup your web directory and database.
-      - Download the latest Cron Scheduler installation package kiwicommerce-admin-activity-vvvv.zip [here](https://github.com/kiwicommerce/magento2-admin-activity/releases)
-      - Navigate to your Magento root folder<br />
-          `cd path_to_the_magento_root_directory`<br />
-      - Upload contents of the Admin Activity Log installation package to your Magento root directory
-      - Then run the following command<br />
-          `php bin/magento module:enable KiwiCommerce_AdminActivity`<br />
+## Installation
+1. Download the latest the admin activity extension from [here](https://kiwicommerce.co.uk/product/magento-2-admin-activity/)
+2. Download the module package and extract it.
+3. Copy the extracted files to `app/code/KiwiCommerce/KiwiCommerce_AdminActivity`.
    
 - After installing the extension, run the following command
 ```
@@ -32,7 +20,7 @@ php bin/magento cache:flush
 ```
 - Log out from the backend and log in again.
 
-Find More details on [KiwiCommerce](https://kiwicommerce.co.uk/extensions/magento2-admin-activity)
+Find More details on [KiwiCommerce](https://kiwicommerce.co.uk/product/magento-2-admin-activity/)
 
 ## Where will it appear in the Admin Panel
 ### Admin Activity Log
